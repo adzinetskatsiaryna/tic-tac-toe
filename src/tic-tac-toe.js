@@ -27,7 +27,8 @@ class TicTacToe {
         for (let i = 0; i < 3; i++) {
             if (this.field[i][0] === this.field[i][1] && this.field[i][0] === this.field[i][2]) {
               return this.field[i][0];
-            } else if (this.field[0][i] === this.field[1][i] && this.field[0][i] === this.field[2][i]) {
+            }
+             if (this.field[0][i] === this.field[1][i] && this.field[0][i] === this.field[2][i]) {
               return this.field[0][i];
             }
           }
